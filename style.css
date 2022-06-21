@@ -1,0 +1,227 @@
+h1 {
+    display: none;
+}
+
+@media screen and (max-width:375px) {
+    body {
+        font-family: 'Outfit', sans-serif;
+        background-color: hsl(216, 50%, 16%);
+    }
+    main {
+        width: 300px;
+        margin: auto;
+    }
+    figure {
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(215, 32%, 27%);
+        padding-bottom: 15px;
+    }
+    figure .equi {
+        background-image: url("./images/image-equilibrium.jpg");
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 260px;
+        height: 260px;
+        border-radius: 30px;
+    }
+    .equi:hover{
+        filter: invert(79%) sepia(93%) saturate(633%) hue-rotate(160deg) brightness(104%) contrast(102%);
+    }
+    .equi svg{
+        display: none;
+        margin: auto;
+    width: 16%;
+    height: 100%;
+    }
+    .equi svg:hover{
+        display: block;
+    margin: auto;
+    width: 16%;
+    height: 100%;
+    background: linear-gradient(271deg, #fffefe, white);
+    }
+    figure h2 {
+        color: white;
+    }
+    figure p {
+        font-size: 18px;
+    }
+    figure figcaption {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    figure figcaption p {
+        color: hsl(215, 51%, 70%);
+    }
+    figure figcaption .ether {
+        color: #00fff7;
+    }
+    figure figcaption .days {
+        color: hsl(215, 51%, 70%);
+    }
+    figure figcaption img {
+        width: 10px;
+        vertical-align: middle;
+        padding: 5px;
+    }
+    figure figcaption nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    figure figcaption nav div {
+        align-items: center;
+    }
+    figure hr {
+        color: hsl(215, 51%, 70%);
+        border: 0.5px solid;
+        width: 85%;
+        margin: auto;
+    }
+    figure .creator {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+        flex-direction: row;
+        width: 250px;
+    }
+    figure .creator img {
+        border: 1px solid white;
+        border-radius: 20px;
+        width: 40px;
+        padding: 0;
+    }
+    figure .creator span {
+        color: hsl(215, 51%, 70%);
+    }
+    figure .creator span strong {
+        color: white;
+    }
+}
+
+@media screen and (min-width:376px) {
+    body {
+        font-family: 'Outfit', sans-serif;
+        background-color: hsl(216, 50%, 16%);
+        width: 100%;
+    }
+    main {
+        width: 300px;
+        margin: auto;
+    }
+    figure {
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(215, 32%, 27%);
+        padding-bottom: 15px;
+    }
+    figure .equi {
+        background-image: url("./images/image-equilibrium.jpg");
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 260px;
+        height: 260px;
+        border-radius: 30px;
+    }
+    .equi:hover{
+        filter: invert(79%) sepia(93%) saturate(633%) hue-rotate(160deg) brightness(104%) contrast(102%);
+    }
+    .equi svg{
+        display: none;
+        margin: auto;
+    width: 16%;
+    height: 100%;
+    }
+    .equi svg:hover{
+        display: block;
+    margin: auto;
+    width: 16%;
+    height: 100%;
+    background: linear-gradient(271deg, #fffefe, white);
+    }
+    figure h2 {
+        color: white;
+    }
+    figure p {
+        font-size: 18px;
+    }
+    figure figcaption {
+        display: flex;
+        flex-direction: column;
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    figure figcaption p {
+        color: hsl(215, 51%, 70%);
+    }
+    figure figcaption .ether {
+        color: hsl(178, 100%, 50%);
+    }
+    figure figcaption .days {
+        color: hsl(215, 51%, 70%);
+    }
+    figure figcaption img {
+        width: 10px;
+        vertical-align: middle;
+        padding: 5px;
+    }
+    figure figcaption nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    figure figcaption nav div {
+        align-items: center;
+    }
+    figure hr {
+        color: hsl(215, 51%, 70%);
+        border: 0.5px solid;
+        width: 75%;
+        margin: auto;
+    }
+    figure .creator {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+        flex-direction: row;
+        width: 250px;
+    }
+    figure .creator img {
+        border: 1px solid white;
+        border-radius: 20px;
+        width: 40px;
+        padding: 0;
+    }
+    figure .creator span {
+        color: hsl(215, 51%, 70%);
+    }
+    figure .creator span strong {
+        color: white;
+    }
+}
+
+figure h2:hover,
+figure .creator span strong:hover {
+    color: hsl(178, 100%, 50%);
+}
